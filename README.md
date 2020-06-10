@@ -33,7 +33,7 @@ The REST API was tested using [**_Insomnia_**](https://insomnia.rest/) and I als
 
 4. Run the application
 
-       npm run dev
+       npm start
 
 ## Contributing
 
