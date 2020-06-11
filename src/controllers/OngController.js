@@ -1,5 +1,5 @@
 const connection = require('../database/connection');
-const crypto = require('crypto'); // To create the ONG's ID (from Node.js).
+const generateUniqueId = require('../utils/generateUniqueId');
 
 module.exports = {
 
@@ -14,7 +14,7 @@ module.exports = {
     const { name, email, whatsapp, city, uf} = req.body;
     //console.log(name);
 
-    const id = crypto.randomBytes(4).toString('HEX'); // ID generator.
+    const id = generateUniqueId();
 
     await connection('ongs').insert({
       id,
