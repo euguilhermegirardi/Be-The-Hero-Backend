@@ -12,6 +12,7 @@ This is a project where I could learn many professional techniques that is used 
 
 The backend was developed with [**_Node.js_**](https://nodejs.org/en/) and [**_Express.js_**](https://expressjs.com/) ( _framework_ ) using MVC as a design pattern. The application is based on a server which is the [**_SQLite_**](https://www.sqlite.org/index.html).
 The REST API was tested using [**_Insomnia_**](https://insomnia.rest/) and I also used [**Knex.js**](http://knexjs.org/), a SQL Query Builder for JavaScript, which helped creating the tables for the NGO and it's incidentes registered.
+I also used [**_celebrate_**](https://github.com/arb/celebrate) for validation and [**Jest**](https://jestjs.io/en/) to test the NGO specification (form) and the unique Id.
 
 ## Getting started
 
