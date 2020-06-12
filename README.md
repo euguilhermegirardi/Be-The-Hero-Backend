@@ -5,7 +5,7 @@ This is a project where I could learn many professional techniques that is used 
 
 ## About the project
 
-- The **Be-The-Hero** is an application where some Non Governmental Organization can create a login and publish a service that they did to ask some help as a payment.
+- The **Be-The-Hero** is an application where a Non-Governmental Organization can create a case in your session publishing a service that they did to ask some help as a payment.
 - The **user** can access the app and contribute with a payment to some NGO for that specific service that the NGO has done.
 
 ## The backend
